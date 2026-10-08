@@ -44,63 +44,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
-- **[Amazon MemoryDB for Redis](https://aws.amazon.com/memorydb/)**  
-
-  **AWS's durable in-memory database** — Redis-compatible with microsecond read and single-digit millisecond write latency . **Multi-AZ durability with transaction log** . **Best for AWS-native applications requiring durable in-memory storage** . **Note**: AWS now defaults new ElastiCache and MemoryDB clusters to **Valkey** unless explicitly overridden .
-
-
-
-- **[Redis Enterprise Cloud](https://redis.com/cloud/)**  
-
-  **The commercial Redis platform** — fully managed with active-active geo-distribution and modules . **Pricing scales with throughput and memory** . **Best for enterprises wanting Redis with commercial support** . **Note**: Redis 8 is now available under AGPLv3 as an additional licensing option .
-
-
-
-- **[Upstash Redis](https://upstash.com/redis)**  
-
-  **Serverless Redis** — pay-per-request pricing with global replication . **REST API and low latency** . **Best for serverless applications** .
-
-
-
-- **[Dragonfly Cloud](https://www.dragonflydb.io/)**  
-
-  **Managed Dragonfly** — multi-threaded architecture for 25x throughput over single-threaded engines . **Best for high-performance caching** . **Note**: Dragonfly uses BSL 1.1 with additional use grant for production use .
-
-
-
-- **[Momento Serverless Cache](https://www.gomomento.com/)**  
-
-  **Serverless caching platform** — pay-per-use with sub-millisecond latency . **Best for serverless architectures** .
-
-
-
-- **[KeyDB Cloud](https://keydb.dev/)**  
-
-  **Managed KeyDB** — multi-threaded Redis fork with active-active replication . **Best for high-throughput workloads** .
-
-
-
-- **[Azure Cache for Redis](https://azure.microsoft.com/en-us/products/cache/)**  
-
-  **Microsoft's managed Redis** — integrated with Azure ecosystem . **Note**: Microsoft has announced retirement of Azure Cache for Redis: Enterprise tiers on 31 March 2027, Basic/Standard/Premium on 30 September 2028. Migration to **Azure Managed Redis** is the destination .
-
-
-
-- **[Google Cloud Memorystore](https://cloud.google.com/memorystore)**  
-
-  **Google's managed Redis** — fully managed with GCP integration . **Supports Valkey** as a managed option .
-
-
-
-- **[Aiven for Redis](https://aiven.io/redis)**  
-
-  **Managed Redis on multiple clouds** — available on AWS, GCP, Azure, and DigitalOcean . **Best for multi-cloud Redis** .
-
-
-
-- **[Hazelcast Cloud](https://hazelcast.com/)**  
-
-  **In-memory data grid** — distributed caching and computing . **Best for distributed caching at scale** .
+| SaaS Platform | Company & Size (Valuation / Revenue) | Starting Pricing | Free Tier / Trial Limit | Description & Key Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Azure Cache for Redis](https://azure.microsoft.com/en-us/products/cache/)** | Microsoft ($3.1T Market Cap / $245B+ Rev) | ~$0.016/hour (~$11.68/mo for Basic 250MB C0) | 30-day free trial ($200 credit via Azure Free Account) | **Microsoft's managed Redis** — integrated with Azure ecosystem. *Note: Retiring by 2028; migrating to Azure Managed Redis.* |
+| **[Google Cloud Memorystore](https://cloud.google.com/memorystore)** | Alphabet / Google ($2.1T Market Cap / $307B+ Rev) | ~$0.049/hour (~$36/mo for Basic 1GB) | 90-day free trial ($300 credit via GCP Free Tier) | **Google's managed Redis** — fully managed with GCP integration. Supports Valkey as a managed option. |
+| **[Amazon MemoryDB for Redis](https://aws.amazon.com/memorydb/)** | Amazon / AWS ($2.0T Market Cap / $575B+ Rev) | ~$0.013/hour (~$9.50/mo for db.t4g.small) | 2-month free trial (750 hrs/mo of db.t4g.small via AWS Free Tier) | **AWS's durable in-memory database** — microsecond reads with transaction log durability. Defaults new clusters to Valkey. |
+| **[KeyDB Cloud](https://keydb.dev/)** | Snap Inc. ($15.5B Market Cap / $4.6B Rev) | ~$0.018/hour (~$13/mo per node) | 14-day free trial ($300 credit on GCP/AWS Marketplace) | **Managed KeyDB** — multi-threaded Redis fork with active-active replication for high-throughput workloads. |
+| **[Aiven for Redis](https://aiven.io/redis)** | Aiven ($3.0B Valuation / ~$100M ARR) | $0.026/hour (~$19/mo for Hobbyist 1GB) | 30-day free trial ($300 credit) | **Managed Redis on multiple clouds** — available on AWS, GCP, Azure, and DigitalOcean. |
+| **[Redis Enterprise Cloud](https://redis.com/cloud/)** | Redis Inc. ($1.0B Valuation / ~$150M ARR) | $0.0084/GB-hour (starting at ~$5/mo) | Free forever tier up to 30 MB database RAM (1 database) | **The commercial Redis platform** — fully managed with active-active geo-distribution and commercial support. |
+| **[Hazelcast Cloud](https://hazelcast.com/)** | Hazelcast ($150M Valuation / ~$30M ARR) | $0.10/GB-hour (Serverless pay-as-you-go) | Free forever tier up to 2 GB memory cluster | **In-memory data grid** — distributed caching, streaming, and compute at scale. |
+| **[Upstash Redis](https://upstash.com/redis)** | Upstash ($50M Valuation / ~$5M ARR) | $0.20 per 100K requests (or $10/mo Pro tier) | Free forever tier with 10,000 requests/day & 256 MB storage | **Serverless Redis** — pay-per-request pricing with REST API and global replication for serverless apps. |
+| **[Dragonfly Cloud](https://www.dragonflydb.io/)** | DragonflyDB ($30M Valuation) | $0.035/GB-hour (~$25/mo minimum) | 14-day free trial (up to 8 GB RAM instance) | **Managed Dragonfly** — multi-threaded engine delivering up to 25x throughput over single-threaded engines. |
+| **[Momento Serverless Cache](https://www.gomomento.com/)** | Momento ($15M Valuation) | $0.15 per GB data transferred | Free forever tier up to 50 GB data transfer per month | **Serverless caching platform** — instant provisioning with sub-millisecond latency for serverless architectures. |
 
 
 
